@@ -1,0 +1,33 @@
+{
+    "name": "Viibez Bot",
+    "prefix": "$",
+    "color": "#0099ff",
+    "commands": {
+        "player": {
+            "play_song": "play",
+            "skip_song": "skip",
+            "pause_song": "pause",
+            "resume_song": "resume",
+            "previous_song": "back",
+            "search_song": "search",
+            "add_playlist": "playlist"
+        },
+        "queue": {
+            "stop_queue": "stop",
+            "clear_queue": "clear",
+            "shuffle_queue": "shuffle",
+            "get_queue": "queue"
+        },
+        "settings": {
+            "set": "set",
+            "switch": ["off", "on"],
+            "options": {
+                "loop_mode": "loop",
+                "repeat_mode": "repeat"
+            }
+        }
+    },
+    "emojis": {
+
+    }
+}
